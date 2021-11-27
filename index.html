@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koogle</title>
 </head>
+
 <body>
     <header class="menu">
         <div class="menu_selection left">
-            <img src="/assets/burger-icon.svg" alt="Burger"class="menu_icon">
+            <img src="/assets/burger-icon.svg" alt="Burger" class="menu_icon">
             <a class="menu_link active">All</a>
             <a class="menu_link">Images</a>
         </div>
@@ -23,24 +25,31 @@
 
         </div>
     </header>
-    
+
     <main class="content">
         <img src="/assets/koogle.png" alt="logo" class="content_logo">
         <div class="input_container">
             <img src="/assets/search.svg" alt="lupa" class="lupa">
-            <input type="text" class="content_search"/>
+            <input type="text" class="content_search" />
         </div>
 
         <div class="content_buttons">
 
-            <button class="btn search">Koogle Search</button>
+            <button type="button" class="btn search" onclick='location.href=""'>Koogle Search
+            </button>
+
             <button class="btn lucky">I'm Feeling Lucky</button>
         </div>
 
         <div class="content_offer">
-        Made with 💙 by
-         <a href="https://github.com/williankayama" class="link_git">Kayama</a>
-         for studying purposes
+            <span>
+                Made with 💙 by
+            </span>
+            <a href="https://github.com/williankayama" class="link_git">Kayama</a>
+            <span>
+                for studying purposes
+            </span>
+
         </div>
     </main>
 
@@ -52,8 +61,9 @@
         <div class="footer_section footer_links">
             <a>Settings</a>
             <a>Privacy</a>
-            <a>Terms</a> 
+            <a>Terms</a>
         </div>
     </footer>
 </body>
+
 </html>
